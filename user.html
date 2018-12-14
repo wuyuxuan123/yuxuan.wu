@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>USER</title>
+		<style>
+			#quanbu{
+			width:55%;
+            height: 2200px;
+            margin: 0 auto;
+            background: lightblue;
+            border: cornflowerblue;
+			border-radius: 50px;
+			margin-top: 30px;
+		    margin-bottom: 30px;
+		    background-repeat:no-repeat;
+		    
+			}
+			#grjianli{
+				width: 100%;
+				height: 80px;
+				font-family: "楷体";
+				text-align: center;
+				border: 1px solid black;
+				
+			}
+			.name{
+				width: 250px;
+				height: 30px;
+				font-family: "楷体";
+				margin-left: 50px;
+				margin-top: 30px;
+			}
+			.nametext{
+				height: 25px;
+				width: 150px;
+				border-radius: 10px;
+				font-family: "楷体";
+				background: aliceblue;	
+				font-size: 15px;
+			}
+			#photo{
+				height: 180px;
+				width:140px ;
+				border-radius: 10px;
+				border: 1px solid black;
+				margin-left: 410px;
+				margin-top: -200px;
+				text-align: center;
+			}
+			#upload{
+				margin-left: 450px;
+				margin-top: 10px;
+			}
+			.gaishu{
+				height: 25px;
+				width: 500px;
+				font-family: "楷体";
+				text-align: center;
+				background: dodgerblue;
+				margin-top: 50px;
+				margin-left: 80px;
+				border-radius: 10px;
+			}
+			.dhtext{
+				width: 500px;
+				height: 130px;
+				font-family: "楷体";
+				background: aliceblue;
+				border-radius: 10px;
+				margin-left: 80px;
+				font-size: 15px;
+			
+			}
+			.jingli{
+				height: 25px;
+				width: 500px;
+				font-family: "楷体";
+				text-align: center;
+				background: dodgerblue;
+				margin-left: 80px;
+				border-radius: 10px;
+			}
+			.jingli1{
+				height: 50px;
+				width: 500px;
+				font-family: "楷体";
+				text-align: center;
+				background: dodgerblue;
+				margin-left: 80px;
+				border-radius: 10px;
+			}
+			.table{
+				margin-left: 80px;
+				
+			}
+			.dgtext1{
+				border-radius: 10px;
+				background: aliceblue;
+				width: 160px;
+				height: 30px;
+				font-family: "楷体";
+				font-size: 15px;
+			}
+			.dgtext2{
+				border-radius: 10px;
+				background: aliceblue;
+				width: 325px;
+				height: 30px;
+				font-family: "楷体";
+				font-size: 15px;
+			}
+			.dgtext3{
+				border-radius: 10px;
+				background: aliceblue;
+				width: 120px;
+				height: 30px;
+				font-family: "楷体";
+				font-size: 15px;
+			}
+			.dgtext4{
+				border-radius: 10px;
+				background: aliceblue;
+				width: 375px;
+				height: 30px;
+				font-family: "楷体";
+				font-size: 15px;
+			}
+			
+			.ta1{
+				background: dodgerblue;
+				height: 30px;
+				width: 120px;
+				border-radius: 10px;
+				text-align: center;
+				font-family: "楷体";
+			}
+			.ta2{
+				background: aliceblue;
+				height: 30px;
+				width: 120px;
+				border-radius: 10px;
+				text-align: center;
+				font-family: "楷体";
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="quanbu">	
+					<div id="grjianli" >
+						<h1>Personal resume</h1>
+					</div>
+					
+					<div class="name">name:&nbsp&nbsp&nbsp&nbsp
+					<input type="text" class="nametext" />
+					</div>
+					<div class="name">position:
+					<input type="text" class="nametext" />
+					</div>
+					<div class="name">live:&nbsp&nbsp&nbsp&nbsp
+					<input type="text" class="nametext" />
+					</div>
+					<div class="name">country:&nbsp
+					<input type="text" class="nametext" />
+					</div>
+					
+					<div id="photo">photo</div>
+					<div>
+						<input type="button" id="upload" value="上传照片" />
+					</div>
+					
+					<div class="gaishu">introduction</div>
+					<textarea class="dhtext"></textarea>
+					
+					<div class="jingli">career experience</div>
+					
+					<table class="table">
+						<tr>
+							<td class="ta">
+								<input type="text" class="dgtext1"/>
+							</td>
+							<td class="ta">
+								<input type="text" class="dgtext2"/>
+							</td>
+						</tr>
+						<tr>
+							<td class="ta">
+								<input type="text" class="dgtext1"/>
+							</td>
+							<td class="ta">
+								<input type="text" class="dgtext2"/>
+							</td>
+						</tr>
+						<tr>
+							<td class="ta">
+								<input type="text" class="dgtext1"/>
+							</td>
+							<td class="ta">
+								<input type="text" class="dgtext2"/>
+							</td>
+						</tr>	
+					</table>
+					<div class="jingli">industry experience</div>
+					<table class="table">
+						<tr>
+							<td class="ta">
+								<input type="text" class="dgtext1"/>
+							</td>
+							<td class="ta">
+								<input type="text" class="dgtext2"/>
+							</td>
+						</tr>
+						<tr>
+							<td class="ta">
+								<input type="text" class="dgtext1"/>
+							</td>
+							<td class="ta">
+								<input type="text" class="dgtext2"/>
+							</td>
+						</tr>
+						<tr>
+							<td class="ta">
+								<input type="text" class="dgtext1"/>
+							</td>
+							<td class="ta">
+								<input type="text" class="dgtext2"/>
+							</td>
+						</tr>	
+					</table>
+					<div class="jingli">tecnology experience</div>
+					<table class="table">
+						<tr>
+							<td class="ta">
+								<input type="text" class="dgtext1"/>
+							</td>
+							<td class="ta">
+								<input type="text" class="dgtext2"/>
+							</td>
+						</tr>
+						<tr>
+							<td class="ta">
+								<input type="text" class="dgtext1"/>
+							</td>
+							<td class="ta">
+								<input type="text" class="dgtext2"/>
+							</td>
+						</tr>
+						<tr>
+							<td class="ta">
+								<input type="text" class="dgtext1"/>
+							</td>
+							<td class="ta">
+								<input type="text" class="dgtext2"/>
+							</td>
+						</tr>	
+					</table>
+					<div class="jingli1">language
+					<br class="jingli1">"excellent","better","average" or "poor"</br>
+					</div>
+					<table class="table">
+						<tr>
+							<td class="ta1">language</td>
+							<td class="ta1">hearing</td>
+							<td class="ta1">reading</td>
+							<td class="ta1">writing</td>
+						</tr>
+					</table>
+					<table class="table">
+						<tr>
+							<td class="ta2">English</td>
+							<td class="ta2">
+								<select>
+									<option value="优秀">excellent</option>
+									<option value="较好">better</option>
+									<option value="优秀">average</option>
+									<option value="优秀">poor</option>
+								</select>
+							</td>
+							<td class="ta2">
+								<select>
+									<option value="优秀">excellent</option>
+									<option value="较好">better</option>
+									<option value="优秀">average</option>
+									<option value="优秀">poor</option>
+								</select>
+							</td>
+							<td class="ta2">
+								<select>
+									<option value="优秀">excellent</option>
+									<option value="较好">better</option>
+									<option value="优秀">average</option>
+									<option value="优秀">poor</option>
+								</select>
+							</td>
+						</tr>
+					</table>
+					<div class="jingli">project experience</div>
+					<div>
+					<table class="table">
+						<tr>
+							<td class="ta1">start date</td>
+							<td class="ta">
+								<input type="text" class="dgtext3"/>
+							</td>
+							<td class="ta1">end date</td>
+							<td class="ta">
+								<input type="text" class="dgtext3"/>
+							</td>
+						</tr>
+					</table>
+					</div>
+					
+					<div>
+					<table class="table">
+						<tr>
+							<td class="ta1">customer</td>
+							<td class="ta3">
+								<input type="text" class="dgtext4"/>
+							</td>
+						</tr>
+					</table>
+					</div>
+					<div>
+					<table class="table">
+						<tr>
+							<td class="ta1">project</td>
+							<td class="ta3">
+								<input type="text" class="dgtext4"/>
+							</td>		
+						</tr>
+					</table>
+					</div>
+					<div>
+					<table class="table">
+						<tr>
+							<td class="ta1">role</td>
+							<td class="ta3">
+								<input type="text" class="dgtext4"/>
+							</td>		
+						</tr>
+					</table>
+					</div>
+					<div>
+					<table class="table">
+						<tr>
+							<td class="ta1">responsibility</td>
+							<td class="ta3">
+								<input type="text" class="dgtext4"/>
+							</td>		
+						</tr>
+					</table>
+					</div>
+					
+					<div>
+					<table class="table">
+						<tr>
+							<td class="ta1">start date</td>
+							<td class="ta">
+								<input type="text" class="dgtext3"/>
+							</td>
+							<td class="ta1">end date</td>
+							<td class="ta">
+								<input type="text" class="dgtext3"/>
+							</td>
+						</tr>
+					</table>
+					</div>
+					
+					<div>
+					<table class="table">
+						<tr>
+							<td class="ta1">customer</td>
+							<td class="ta3">
+								<input type="text" class="dgtext4"/>
+							</td>
+						</tr>
+					</table>
+					</div>
+					<div>
+					<table class="table">
+						<tr>
+							<td class="ta1">project</td>
+							<td class="ta3">
+								<input type="text" class="dgtext4"/>
+							</td>		
+						</tr>
+					</table>
+					</div>
+					<div>
+					<table class="table">
+						<tr>
+							<td class="ta1">role</td>
+							<td class="ta3">
+								<input type="text" class="dgtext4"/>
+							</td>		
+						</tr>
+					</table>
+					</div>
+					<div>
+					<table class="table">
+						<tr>
+							<td class="ta1">responsibility</td>
+							<td class="ta3">
+								<input type="text" class="dgtext4"/>
+							</td>		
+						</tr>
+					</table>
+					</div>
+					
+					<div>
+					<table class="table">
+						<tr>
+							<td class="ta1">start date</td>
+							<td class="ta">
+								<input type="text" class="dgtext3"/>
+							</td>
+							<td class="ta1">end start</td>
+							<td class="ta">
+								<input type="text" class="dgtext3"/>
+							</td>
+						</tr>
+					</table>
+					</div>
+					
+					<div>
+					<table class="table">
+						<tr>
+							<td class="ta1">customer</td>
+							<td class="ta3">
+								<input type="text" class="dgtext4"/>
+							</td>
+						</tr>
+					</table>
+					</div>
+					<div>
+					<table class="table">
+						<tr>
+							<td class="ta1">project</td>
+							<td class="ta3">
+								<input type="text" class="dgtext4"/>
+							</td>		
+						</tr>
+					</table>
+					</div>
+					<div>
+					<table class="table">
+						<tr>
+							<td class="ta1">role</td>
+							<td class="ta3">
+								<input type="text" class="dgtext4"/>
+							</td>		
+						</tr>
+					</table>
+					</div>
+					<div>
+					<table class="table">
+						<tr>
+							<td class="ta1">responsibility</td>
+							<td class="ta3">
+								<input type="text" class="dgtext4"/>
+							</td>		
+						</tr>
+					</table>
+					</div>
+					
+					<div class="jingli">Training/Certificate</div>
+					
+					<table class="table">
+						<tr>
+							<td class="ta">
+								<input type="text" class="dgtext1"/>
+							</td>
+							<td class="ta">
+								<input type="text" class="dgtext2"/>
+							</td>
+						</tr>
+						<tr>
+							<td class="ta">
+								<input type="text" class="dgtext1"/>
+							</td>
+							<td class="ta">
+								<input type="text" class="dgtext2"/>
+							</td>
+						</tr>
+						</table>
+						<div class="jingli">Education background</div>
+					
+					<table class="table">
+						<tr>
+							<td class="ta">
+								<input type="text" class="dgtext1"/>
+							</td>
+							<td class="ta">
+								<input type="text" class="dgtext2"/>
+							</td>
+						</tr>
+						<tr>
+							<td class="ta">
+								<input type="text" class="dgtext1"/>
+							</td>
+							<td class="ta">
+								<input type="text" class="dgtext2"/>
+							</td>
+						</tr>
+						</table>
+						<div class="jingli">others</div>
+					
+					<table class="table">
+						<tr>
+							<td class="ta">
+								<input type="text" class="dgtext1"/>
+							</td>
+							<td class="ta">
+								<input type="text" class="dgtext2"/>
+							</td>
+						</tr>
+						<tr>
+							<td class="ta">
+								<input type="text" class="dgtext1"/>
+							</td>
+							<td class="ta">
+								<input type="text" class="dgtext2"/>
+							</td>
+						</tr>
+						</table>
+		</div>
+	</body>
+</html>

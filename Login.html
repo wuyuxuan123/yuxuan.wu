@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>LOGIN</title>
+		<style type="text/css">
+       .background{
+       	width: 100%;
+		height: 100%;
+		background-size:cover;
+       	background-image: url(image1.png);
+       	background-repeat:no-repeat;
+       }
+       .zhanghu{
+       	width: 300px;
+       	height: 350px;
+       	padding: 20px;
+       	border:hidden;
+       	border-radius: 50px;
+       	position: absolute;
+       	right: 200px;
+       	top: 150px;
+       	background: skyblue;
+       	font-family: "楷体";
+       }
+       #two{
+       	height: 20px;
+       	width: 300px;
+       	border-radius: 10px;
+       }
+       .denglu{
+       	width: 80px;
+       	height: 50px;
+       	background:cornflowerblue;
+        position:absolute;
+        bottom: 20px;
+        right:30px;
+       }
+       #wmima{
+       	position:absolute;
+        right:30px;
+       }
+       #zhuce{
+       	position: absolute;
+       	left: 30px;
+       	bottom: 20px;
+       }
+       #logo{
+       	width: 500px;
+       	height: 200px;
+       	background: url(logo.png);
+       	margin-left: -800px;
+       	background-repeat:no-repeat;
+       }
+    </style> 
+    
+	</head>
+	<body class="background">
+		<div class="zhanghu">  
+        <h1 align="center">Login</h1> 
+        
+        	<div>
+        	<p>username：</p><input id="two" type="text" placeholder="Please enter email/phone number"></input><br />  
+            <p>password：&nbsp;&nbsp;&nbsp;&nbsp;</p><input id="two" type="password" placeholder="Please enter password" ></input><br />
+        	</div><br /> 
+        	
+        	<div>
+        		<input type="checkbox" checked="checked" />Remember
+        		<a id="wmima" href="test.html" >Forgot password?</a>
+        	</div>
+        	
+        	<div>
+        		<a id="zhuce" href="index.html">New user registration</a>
+        	</div>
+        	<hr />
+        	
+        	<div class="denglu">
+        		<form action="zhenghe.html" method="get">
+                <input type="submit" style="width:80px;height:50px;" value="login"></input>
+                </form>
+            </div>
+            <div id="logo"></div>
+        
+       </div>
+	</body>
+</html>
